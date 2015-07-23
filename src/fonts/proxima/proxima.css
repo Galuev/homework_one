@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'proximanova-semibold';
+    src: url('proximanova-semibold.eot');
+    src: url('proximanova-semibold.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-semibold.woff') format('woff'),
+         url('proximanova-semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

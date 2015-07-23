@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'fira_sanslight';
+    src: url('firasans-light.eot');
+    src: url('firasans-light.eot?#iefix') format('embedded-opentype'),
+         url('firasans-light.woff') format('woff'),
+         url('firasans-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fira_sansbook';
+    src: url('firasans-book.eot');
+    src: url('firasans-book.eot?#iefix') format('embedded-opentype'),
+         url('firasans-book.woff') format('woff'),
+         url('firasans-book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fira_sansmedium';
+    src: url('firasans-medium.eot');
+    src: url('firasans-medium.eot?#iefix') format('embedded-opentype'),
+         url('firasans-medium.woff') format('woff'),
+         url('firasans-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
