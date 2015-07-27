@@ -229,6 +229,99 @@ body {
 	text-decoration: underline;
 	background: url(../img/lock-open.png) no-repeat;
 }
+
+
+
+/*BUTTONS============================*/
+/*blue btn*/
+.blue-btn {
+    font-family: 'fira_sanslight';
+    color: #fff;
+    font-size: 1.1875em;
+    padding: 2px 27px;
+    border-radius: 4px;
+    background-color: #48cbe8;
+    border-bottom: 2px solid #3ba8c0;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+.blue-btn:hover {
+    border-bottom: 2px solid #48cbe8;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+.blue-btn:active {
+    border-top: 2px solid #3ba8c0;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+/*grey btn*/
+.grey-btn {
+    font-family: 'fira_sanslight';
+    color: #fff;
+    font-size: 1.1875em;
+    padding: 2px 27px;
+    border-radius: 4px;
+    background-color: #849db5;
+    border-bottom: 2px solid #687b8f;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+.grey-btn:hover {
+    border-bottom: 2px solid #849db5;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+.grey-btn:active {
+    border-top: 2px solid #687b8f;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+/*FORM STYLES STARTS============================*/
+/*inputs*/
+.input-hint {
+    display: block;
+    color: #959aa8;
+    font-family: 'fira_sanslight';
+    font-size: 1.1875em;
+}
+.common-input {
+    font-family: 'fira_sanslight';
+    color: #48cbe8;
+    font-size: 0.81em;
+    padding: 9px 0px 9px 16px;
+    background-color: #fbfcfd;
+    background-color: #fbfcfd;
+    border-radius: 3px;
+    border: 1px solid #48cbe8;
+}
+.form-header {
+    border-bottom: 9px #67dffa solid;
+    background-color: #48cbe8;
+}
+
+/*placeholder styles*/
+::-webkit-input-placeholder {font-family: 'fira_sanslight';
+    color: #48cbe8;
+    font-size: 1em;}
+::-moz-placeholder          {font-family: 'fira_sanslight';
+    color: #48cbe8;
+    font-size: 1em;}/* Firefox 19+ */
+:-moz-placeholder           {font-family: 'fira_sanslight';
+    color: #48cbe8;
+    font-size: 1em;}/* Firefox 18- */
+:-ms-input-placeholder      {font-family: 'fira_sanslight';
+    color: #48cbe8;
+    font-size: 1em;}
+/*FORM STYLES ENDS============================*/
+
 /*COMMON STYLES STARTS============================*/
 .container {
 	width: 960px;

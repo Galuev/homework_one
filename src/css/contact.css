@@ -1,0 +1,74 @@
+.contactbox {
+    background-color: #eff3f7;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.contactbox-header {
+    line-height: 117px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.contactbox-header-inner {
+    font-family: 'fira_sanslight';
+    font-size: 1.6875em;
+    font-weight: normal;
+    color: #fff;
+}
+
+/*введите код*/
+.enter-code {
+    display: block;
+    color: #959aa8;
+    font-family: 'fira_sanslight';
+    font-size: 1.0625em;
+}
+.contact-form {
+    padding: 0 118px;
+}
+.form-part {
+    margin-bottom: 20px;
+}
+.sidebyside-form-parts {
+    display: inline-block;
+    margin: 0 0 18px 18px;
+}
+
+.sidebyside-input {
+    width: 177px;
+}
+.no-left-margin {
+    margin-left: 0;
+}
+.wide-input {
+    width: 394px;
+}
+.capcha-wrap {
+    position: relative;
+}
+.capcha-img {
+    display: inline-block;
+    width: 191px;
+    height: 79px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #48cbe8;
+}
+.capcha-input-inner {
+    width: 192px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+.form-btns-wrap {
+    position: relative;
+    margin-bottom: 40px;
+}
+.btn-right {
+    position: absolute;
+    right: 0;
+
+}
+
+
+

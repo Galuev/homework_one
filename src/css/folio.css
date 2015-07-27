@@ -129,11 +129,8 @@
 /*POPUP STARTS===============*/
 .popup-header {
     position: relative;
-    border-bottom: 9px #67dffa solid;
-    margin: 0 0 12px 0;
-    background-color: #48cbe8;
+    margin-bottom: 12px;
 }
-
 .popup-header-inner {
     display: inline-block;
     font-family: 'fira_sanslight';
@@ -170,19 +167,10 @@
     margin-bottom: 12px;
 }
 .input-hint {
-    color: #959aa8;
-    font-family: 'fira_sanslight';
     font-size: 1.05em;
 }
 .popup-input {
     width: 300px;
-    font-family: 'fira_sanslight';
-    color: #48cbe8;
-    font-size: 0.81em;
-    padding: 9px 0px 9px 16px;
-    background-color: #fbfcfd;
-    border-radius: 3px;
-    border: 1px solid #48cbe8;
 }
 
 /*to style inputs*/
@@ -204,31 +192,6 @@
     text-align: center;
     margin-bottom: 22px;
 }
-.blue-btn {
-    font-family: 'fira_sanslight';
-    color: #fff;
-    font-size: 1.1875em;
-    padding: 2px 27px;
-    border-radius: 4px;
-    background-color: #48cbe8;
-    border-bottom: 2px solid #3ba8c0;
-    border-right: none;
-    border-top: none;
-    border-left: none;
-}
-.blue-btn:hover {
-    border-bottom: 2px solid #48cbe8;
-    border-right: none;
-    border-top: none;
-    border-left: none;
-}
-.blue-btn:active {
-    border-top: 2px solid #3ba8c0;
-    border-right: none;
-    border-bottom: none;
-    border-left: none;
-}
-/*btn ends*/
 
 /*styles for file input starts*/
 .fileform {
