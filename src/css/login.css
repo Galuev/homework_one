@@ -1,0 +1,37 @@
+.loginbox {
+    background-color: #eff3f7;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 277px auto 40px;
+    width: 590px;
+}
+.loginbox-header{
+    text-align: center;
+    line-height: 92px;
+}
+.loginbox-body{
+    text-align: center;
+}
+.loginbox-header-inner {
+    font-family: 'fira_sanslight';
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #fff;
+}
+.login-input {
+    font-size: 1.1em;
+    width: 424px;
+    line-height: 2.4em;
+}
+.login-hint {
+    font-size: 2.25em;
+}
+.login-btn {
+    font-size: 2.25em;
+    line-height: 48px;
+    padding: 0 65px;
+    margin: 26px 0;
+}
+.form-part {
+    margin: 20px 0;
+}

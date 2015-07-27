@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/bower/normalize.css/normalize.css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/login.css">
     <!-- modernizr -->
     <script src="bower/modernizer/modernizr.js"></script>
   </head>
@@ -33,11 +33,26 @@
         <div class="container">
 
             <!-- CHANGEABLE CONTENT STARTS -->
-            <div class="variable-content">
-                <section class="aboutbox">
 
-            </section>
-            </div>
+              <section class="loginbox">
+                <div class="loginbox-header form-header">
+                  <span class="loginbox-header-inner">Авторизируйтесь</span>
+                </div>
+                <div class="loginbox-body">
+                  <form action="">
+                    <div class="form-part">
+                      <span class="input-hint login-hint">Логин</span>
+                      <input type="text" placeholder="Введите логин" class="common-input login-input">
+                    </div>
+                    <div class="form-part">
+                      <span class="input-hint login-hint">Пароль</span>
+                      <input type="password" placeholder="Введите пароль" class="common-input login-input">
+                    </div>
+                    <button class="blue-btn login-btn">Войти</button>
+                  </form>
+                </div>
+              </section>
+
           <!-- CHANGEABLE CONTENT ENDS -->
         </div>
             </div><!-- main-content -->
