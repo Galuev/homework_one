@@ -1,0 +1,281 @@
+/*PORTFOLIO BLOCK STARTS===============*/
+.foliobox{
+    background: #eff3f7;
+    border-radius: 4px;
+    margin-bottom: 26px;
+}
+.foliobox-header {
+    font-family: 'fira_sansbook';
+    font-size: 27px;
+    font-weight: normal;
+    color: #3ba8c0;
+    border-bottom: 2px #3ba8c0 solid;
+    margin: 0 0 23px 0;
+    padding: 13px 23px;
+    display: inline-block;
+}
+.foliobox-body {
+    padding: 10px 10px 40px 10px;
+}
+.folio-list {
+    margin: 0;
+    padding: 0;
+}
+/*project preview starts*/
+.folio-item {
+    width: 181px;
+    margin: 0 11px 45px;
+    display: -moz-inline-stack; /*for Firefox 2*/
+    display: inline-block;
+    text-align: center;
+    vertical-align: top; /*fixes the problem of base line*/
+}
+.project-thumbnail {
+    width: 181px;
+    height: 127px;
+    border: 2px solid #3ba8c0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.project-img {
+    width: 100%;
+}
+.project-title {
+    font-family: 'fira_sansbook_italic';
+    color: #3ba8c0;
+    font-size: 0.77em;
+}
+.project-info {
+    font-size: 0.9em;
+}
+/*adding a project link===============*/
+
+.add-project {
+    width: 181px;
+    height: 127px;
+    background-color: #edf8fc;
+    border-radius: 5px;
+    border: 1px dashed #3ba8c0;
+}
+.add-project-link {
+    height: 100%;
+    text-decoration: none;
+    display: block;
+}
+.add-project-link-inner {
+    padding-top: 82px;
+    color: #3ba8c0;
+    font-size: 0.77em;
+    background: url('../img/add-pic.png') 74px 34px no-repeat;
+}
+
+/*hover effect starts===============*/
+
+.view {
+   position: relative;
+}
+.view .mask, .view .content {
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.content a{
+    height: 127px;
+}
+.view img {
+   position: relative;
+}
+.third-effect .mask {
+   opacity: 0;
+   overflow:visible;
+   border:100px solid rgba(1,108,164,0.75);
+   box-sizing:border-box;
+   transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
+}
+.third-effect a.info {
+    display: block;
+    cursor: pointer;
+    padding-top: 50px;
+    position:relative;
+    opacity: 0;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    text-decoration: none;
+}
+.third-effect:hover .mask {
+    opacity: 1;
+    border:100px solid rgba(1,108,164,0.75);
+}
+.third-effect:hover a.info {
+    opacity:1;
+}
+.hover-name {
+    color: #fff;
+    border-radius: 3px;
+    border: 2px solid#fff;
+    padding: 2px 5px;
+    font-size: 0.8em;
+}
+/*hover effect ends===============*/
+/*PORTFOLIO BLOCK ENDS===============*/
+
+
+/*POPUP STARTS===============*/
+.popup-header {
+    position: relative;
+    border-bottom: 9px #67dffa solid;
+    margin: 0 0 12px 0;
+    background-color: #48cbe8;
+}
+
+.popup-header-inner {
+    display: inline-block;
+    font-family: 'fira_sanslight';
+    font-size: 1.56em;
+    font-weight: normal;
+    color: #fff;
+    margin: 6px 0px 0px 12px;
+}
+
+#element_to_pop_up {
+    display: none;
+    width: 363px;
+    background-color: #eff3f7;
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 13px 6px rgba(13,16,7,0.35);
+    -moz-box-shadow: 0px 0px 13px 6px rgba(13,16,7,0.35);
+    box-shadow: 0px 0px 13px 6px rgba(13,16,7,0.35);
+}
+
+.b-close {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+}
+/*form starts*/
+.add-project-form {
+    padding: 0px 22px;
+}
+.form-part {
+    margin-bottom: 12px;
+}
+.input-hint {
+    color: #959aa8;
+    font-family: 'fira_sanslight';
+    font-size: 1.05em;
+}
+.popup-input {
+    width: 300px;
+    font-family: 'fira_sanslight';
+    color: #48cbe8;
+    font-size: 0.81em;
+    padding: 9px 0px 9px 16px;
+    background-color: #fbfcfd;
+    border-radius: 3px;
+    border: 1px solid #48cbe8;
+}
+
+/*to style inputs*/
+::-webkit-input-placeholder {font-family: 'fira_sanslight';
+    color: #48cbe8;
+    font-size: 1em;}
+::-moz-placeholder          {font-family: 'fira_sanslight';
+    color: #48cbe8;
+    font-size: 1em;}/* Firefox 19+ */
+:-moz-placeholder           {font-family: 'fira_sanslight';
+    color: #48cbe8;
+    font-size: 1em;}/* Firefox 18- */
+:-ms-input-placeholder      {font-family: 'fira_sanslight';
+    color: #48cbe8;
+    font-size: 1em;}
+
+/*btn starts*/
+.blue-btn-area {
+    text-align: center;
+    margin-bottom: 22px;
+}
+.blue-btn {
+    font-family: 'fira_sanslight';
+    color: #fff;
+    font-size: 1.1875em;
+    padding: 2px 27px;
+    border-radius: 4px;
+    background-color: #48cbe8;
+    border-bottom: 2px solid #3ba8c0;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+.blue-btn:hover {
+    border-bottom: 2px solid #48cbe8;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+.blue-btn:active {
+    border-top: 2px solid #3ba8c0;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+/*btn ends*/
+
+/*styles for file input starts*/
+.fileform {
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;
+    width: 316px;
+    background-color: #fbfcfd;
+    border-radius: 3px;
+    border: 1px solid #48cbe8;
+    cursor: pointer;
+}
+.fileform .selectbutton {
+    background: #48cbe8 url(../img/upload-btn.png) no-repeat 10px 7px;
+    float: right;
+    height: 20px;
+    overflow: hidden;
+    width: 52px;
+    height: 40px;
+    cursor: pointer;
+}
+.fileform #upload{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    font-size: 150px;
+    height: 40px;
+    z-index:20;
+}
+.fileform #fileformlabel {
+    font-family: 'fira_sanslight';
+    color: #48cbe8;
+    font-size: 0.81em;
+    background-color: #fbfcfd;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    padding: 2px 2px 2px 16px;
+    text-align: left;
+    vertical-align: middle;
+    width: 228px;
+}
+/*styles for file input ends*/

@@ -25,3 +25,21 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'fira_sansthin_italic';
+    src: url('firasans-thinitalic.eot');
+    src: url('firasans-thinitalic.eot?#iefix') format('embedded-opentype'),
+         url('firasans-thinitalic.woff') format('woff'),
+         url('firasans-thinitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fira_sansbook_italic';
+    src: url('firasans-bookitalic.eot');
+    src: url('firasans-bookitalic.eot?#iefix') format('embedded-opentype'),
+         url('firasans-bookitalic.woff') format('woff'),
+         url('firasans-bookitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
