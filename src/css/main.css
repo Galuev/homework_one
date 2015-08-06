@@ -356,3 +356,13 @@ body {
     background: linear-gradient(to right,  #e7eff3 0%,#1c667a 50%,#e7eff3 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7eff3', endColorstr='#e7eff3',GradientType=1 ); /* IE6-9 */
 }
+
+
+.qtip-mystyle {
+    background-color: #f97e76;
+}
+
+.empty-input {
+    background-color: #fad6d4;
+    border-color: #f97e76;
+}

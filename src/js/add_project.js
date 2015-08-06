@@ -15,10 +15,7 @@ var myModule = (function () {
         };
 
 
-    // var _placeHoldersForIE8 = function () {
-    //     console.log('поддержка placeholders в ie8');
-    //     $('input, textarea').placeholder();
-    // };
+
 
     // работает с модальным окном
     var _showModal = function (e) {
@@ -81,6 +78,8 @@ var myModule = (function () {
                 //
                 // if(!valid) return false;
                 //
+                //
+                if (!validation.validateForm(form)) return false;
 
                 data = form.serialize();
 

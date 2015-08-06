@@ -19,10 +19,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/folio.css">
+    <link rel="stylesheet" href="/bower/qtip2/jquery.qtip.css">
     <!-- modernizr -->
     <script src="bower/modernizer/modernizr.js"></script>
-    <!-- jq -->
-    <!-- my script -->
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -160,7 +159,7 @@
                     <form role="form" class="add-project-form form" id="add-new-project-form">
                       <div class="form-part">
                         <div class="input-hint">Название проекта</div>
-                        <input type="text" name="projectName" placeholder="Введите название" class="common-input popup-input">
+                        <input type="text" qtip-content = "Вы не ввели название" name="projectName" placeholder="Введите название" class="common-input popup-input">
                       </div>
                       <div class="form-part">
                         <div class="input-hint">Картинка проекта</div>
@@ -172,11 +171,11 @@
                       </div>
                       <div class="form-part">
                         <div class="input-hint">URL проекта</div>
-                        <input type="text"  name="projectUrl" placeholder="Добавьте ссылку" class="common-input popup-input">
+                        <input type="text" qtip-content = "Вы не ввели URL"  name="projectUrl" placeholder="Добавьте ссылку" class="common-input popup-input">
                       </div>
                       <div class="form-part">
                         <div class="input-hint">Описание</div>
-                        <textarea rows="5" name="projectDescription" placeholder="Пара слов о вашем проекте" class="common-input popup-input"></textarea>
+                        <textarea rows="5" qtip-content = "Вы не ввели описание" name="projectDescription" placeholder="Пара слов о вашем проекте" class="common-input popup-input"></textarea>
                       </div>
                       <div class="blue-btn-area">
                         <button type="submit" class="blue-btn">Добавить</button>
@@ -200,8 +199,10 @@
             </div>
         </footer>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="bower/jquery/jquery.js"></script>
       <script src="bower/bpopup/jquery.bpopup.min.js"></script>
+      <script src="bower/qtip2/jquery.qtip.js"></script>
+      <script src="js/validation.js"></script>
       <script src="js/add_project.js"></script>
       <script src="js/upload.js"></script>
       <script src="bower/jquery-placeholder/jquery.placeholder.min.js"></script>
