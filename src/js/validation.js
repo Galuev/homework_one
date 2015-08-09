@@ -87,6 +87,7 @@ var validation = (function () {
         return valid;
     };
 
+
     //ВОЗВРАЩЕНИЕ ОБЪЕКТА (ПУБЛИЧНЫЕ МЕТОДЫ)
     return {
         init: init,
